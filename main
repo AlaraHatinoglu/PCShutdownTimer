@@ -1,0 +1,17 @@
+from tkinter import *
+import os
+
+root = Tk()
+root.title("Shutdown Timer App")
+root.geometry("400x400")
+
+//define heading here
+
+
+//clock
+
+Label(root, font=("arial", 15, "bold"), text = "current time:", bg = "grey").place (x=65, y=65)
+
+def clock()
+clock_time=time.strftime('%H:%M:%S %p')
+current_time.config(rext=clock_time)
